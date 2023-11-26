@@ -1,0 +1,11 @@
+version: '3'
+services:
+  grpc-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./proto:/app/proto
+      - ./generated_pb:/app/generated_pb
+    ports:
+      - "50051:50051"

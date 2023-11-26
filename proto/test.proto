@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package mypackage;
+
+option go_package = ".";
+
+message ExampleMessage {
+    int32 id = 1;
+    string value = 2;
+}
