@@ -7,4 +7,5 @@ option go_package = ".";
 message ExampleMessage {
     int32 id = 1;
     string value = 2;
+    string newField = 3;
 }
