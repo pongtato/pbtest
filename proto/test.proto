@@ -5,9 +5,8 @@ package mypackage;
 option go_package = ".";
 
 message ExampleMessage {
-    int32 id = 1;
-    string value = 2;
-    string newField = 3;
-    int32 fieldNameChange = 4;
-    int32 NewerField = 5;
+    int32 Id = 1;
+    string Value = 2;
+    string NewField = 3;
+    repeated int32 SanityCheck = 4;
 }
