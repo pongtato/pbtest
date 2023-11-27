@@ -9,4 +9,5 @@ message ExampleMessage {
     string value = 2;
     string newField = 3;
     int32 newerField = 4;
+    string someField = 5;
 }
