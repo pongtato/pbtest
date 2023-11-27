@@ -8,5 +8,6 @@ message ExampleMessage {
     int32 id = 1;
     string value = 2;
     string newField = 3;
-    int32 restoredField = 4;
+    int32 fieldNameChange = 4;
+    int32 NewerField = 5;
 }
